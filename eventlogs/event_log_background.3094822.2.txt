@@ -1,0 +1,31 @@
+000 (3094822.002.000) 2025-08-04 22:09:32 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_1068_233c>
+...
+001 (3094822.002.000) 2025-08-04 22:09:33 Job executing on host: <146.179.108.78:9618?addrs=146.179.108.78-9618+[2a0c-5bc0-88-111-a236-9fff-fe8b-9908]-9618&alias=lxb16.hep.ph.ic.ac.uk&noUDP&sock=startd_1935_d3d8>
+	SlotName: slot1_7@lxb16.hep.ph.ic.ac.uk
+	CondorScratchDir = "/srv/localstage/condor/dir_2474821"
+	Cpus = 1
+	Disk = 2049024
+	GPUs = 0
+	Memory = 8000
+...
+006 (3094822.002.000) 2025-08-04 22:09:42 Image size of job updated: 280
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+004 (3094822.002.000) 2025-08-04 22:09:42 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :        4  2048000   2049024 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0     8000      8000 
+	   TimeExecute (s)      :        8                    
+	   TimeSlotBusy (s)     :        9                    
+...
+009 (3094822.002.000) 2025-08-04 22:09:42 Job was aborted.
+	via condor_rm (by user us322)
+...

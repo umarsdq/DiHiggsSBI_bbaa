@@ -1,0 +1,9 @@
+BSM job: using supp_id from command line argument: 4, queue_line: 6
+Generated job ID: 6 (CLUSTER=3094823, PROCESS=48)
+Using Condor temporary directory: /tmp
+Running BSM generation with supp_id 4 and random seed
+Modified run card with seed: 16161
+
+Running at energy 14 TeV
+Number of runs: 1
+Job completed successfully

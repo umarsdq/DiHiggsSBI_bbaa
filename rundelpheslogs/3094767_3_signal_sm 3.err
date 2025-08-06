@@ -1,0 +1,12 @@
+11:14 madminer.utils.inter INFO    HDF5 file does not contain nuisance parameters information
+11:14 madminer.utils.inter INFO    HDF5 file does not contain finite difference information
+11:14 madminer.utils.inter INFO    HDF5 file does not contain observables information
+11:14 madminer.utils.inter INFO    HDF5 file does not contain sample summary information
+11:14 madminer.utils.inter INFO    HDF5 file does not contain sample information
+11:14 madminer.utils.inter INFO    HDF5 file does not contain systematic information
+Traceback (most recent call last):
+  File "03a_read_delphes.py", line 75, in <module>
+    delphes.add_sample(lhe_filename=f"{loc_dir}/unweighted_events.lhe.gz",
+  File "/vols/cms/us322/nsbi_for_dihiggs/madminer/madminer/delphes/delphes_reader.py", line 202, in add_sample
+    raise ValueError("The specified hepmc file does not exist")
+ValueError: The specified hepmc file does not exist

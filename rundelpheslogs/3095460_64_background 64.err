@@ -1,0 +1,233 @@
+12:37 madminer.utils.inter INFO    HDF5 file does not contain nuisance parameters information
+12:37 madminer.utils.inter INFO    HDF5 file does not contain finite difference information
+12:37 madminer.utils.inter INFO    HDF5 file does not contain observables information
+12:37 madminer.utils.inter INFO    HDF5 file does not contain sample summary information
+12:37 madminer.utils.inter INFO    HDF5 file does not contain sample information
+12:37 madminer.utils.inter INFO    HDF5 file does not contain systematic information
+12:37 madminer.delphes.del DEBUG   Adding event sample /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_01/tag_1_pythia8_events.hepmc.gz
+12:37 madminer.delphes.del DEBUG   Adding event sample /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_02/tag_1_pythia8_events.hepmc.gz
+12:37 madminer.delphes.del INFO    Running Delphes on HepMC sample at /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_01/tag_1_pythia8_events.hepmc.gz
+12:37 madminer.utils.inter DEBUG   Unzipping /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_01/tag_1_pythia8_events.hepmc.gz
+12:39 madminer.utils.inter DEBUG   Deleting /vols/cms/us322/02b_final_events_14_new/background/batch_64/run_01/tag_1_pythia8_events.hepmc
+12:39 madminer.delphes.del INFO    Running Delphes on HepMC sample at /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_02/tag_1_pythia8_events.hepmc.gz
+12:39 madminer.utils.inter DEBUG   Unzipping /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_02/tag_1_pythia8_events.hepmc.gz
+12:40 madminer.utils.inter DEBUG   Deleting /vols/cms/us322/02b_final_events_14_new/background/batch_64/run_02/tag_1_pythia8_events.hepmc
+12:40 madminer.delphes.del DEBUG   Adding required observable a0_pt = a[0].pt
+12:40 madminer.delphes.del DEBUG   Adding required observable a0_eta = a[0].eta
+12:40 madminer.delphes.del DEBUG   Adding required observable a1_pt = a[1].pt
+12:40 madminer.delphes.del DEBUG   Adding required observable a1_eta = a[1].eta
+12:40 madminer.delphes.del DEBUG   Adding required observable num_bjets defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b0_pt defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b0_eta defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b1_pt defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b1_eta defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable bb_deltaR defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable aa_deltaR = a[0].deltaR(a[1])
+12:40 madminer.delphes.del DEBUG   Adding required observable b0a0_deltaR defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b0a1_deltaR defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b1a0_deltaR defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable b1a1_deltaR defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable m_tot defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable pt_bb defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable pt_aa = (a[0]+a[1]).pt
+12:40 madminer.delphes.del DEBUG   Adding required observable m_bb defined through external function
+12:40 madminer.delphes.del DEBUG   Adding required observable m_aa = (a[0]+a[1]).m
+12:40 madminer.delphes.del DEBUG   Adding cut a0_pt>30
+12:40 madminer.delphes.del DEBUG   Adding cut a1_pt>30
+12:40 madminer.delphes.del DEBUG   Adding cut b0_pt>30
+12:40 madminer.delphes.del DEBUG   Adding cut b1_pt>30
+12:40 madminer.delphes.del DEBUG   Adding cut abs(a0_eta)<2.4
+12:40 madminer.delphes.del DEBUG   Adding cut abs(a1_eta)<2.4
+12:40 madminer.delphes.del DEBUG   Adding cut abs(b0_eta)<2.4
+12:40 madminer.delphes.del DEBUG   Adding cut abs(b1_eta)<2.4
+12:40 madminer.delphes.del DEBUG   Adding cut bb_deltaR>0.4
+12:40 madminer.delphes.del DEBUG   Adding cut aa_deltaR>0.4
+12:40 madminer.delphes.del DEBUG   Adding cut b0a0_deltaR>1
+12:40 madminer.delphes.del DEBUG   Adding cut b0a1_deltaR>1
+12:40 madminer.delphes.del DEBUG   Adding cut b1a0_deltaR>1
+12:40 madminer.delphes.del DEBUG   Adding cut b1a1_deltaR>1
+12:40 madminer.delphes.del DEBUG   Adding cut abs(m_bb-125)<25
+12:40 madminer.delphes.del DEBUG   Adding cut abs(m_aa-125)<3
+12:40 madminer.delphes.del DEBUG   Adding cut num_bjets==2
+12:40 madminer.delphes.del DEBUG   Adding cut aa_deltaR<2
+12:40 madminer.delphes.del INFO    Analysing Delphes sample /vols/cms/us322/02b_final_events_14_new/background/batch_64/run_01/tag_1_pythia8_events_delphes.root: Calculating 20 observables, requiring 18 selection cuts, associated with no systematics
+12:40 madminer.delphes.del DEBUG   Extracting nuisance parameter definitions from LHE file
+12:40 madminer.utils.inter DEBUG   Parsing nuisance parameter setup from LHE file at /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_01/unweighted_events.lhe.gz
+12:40 madminer.utils.inter DEBUG   Systematics setup: OrderedDict()
+12:40 madminer.utils.inter DEBUG   0 weight groups
+12:40 madminer.delphes.del DEBUG   systematics_dict: OrderedDict()
+12:40 madminer.utils.inter DEBUG   Parsing Delphes file /vols/cms/us322/02b_final_events_14_new/background/batch_64/run_01/tag_1_pythia8_events_delphes.root
+12:40 madminer.utils.inter DEBUG   Not extracting weights
+12:40 madminer.utils.inter DEBUG   Found 7896 events
+12:41 madminer.utils.inter DEBUG     First 10 values for observable a0_pt:
+[ 62.74090576 152.32090759  92.32789612 140.09616089  28.22071266
+ 123.72136688 112.23690033  93.0446167  140.55377197  99.77822113
+ 120.68979645  83.21784973  80.26512146 151.23165894  69.88072968
+ 168.80584717 156.23696899  83.16856384  56.76869583 109.38976288]
+12:41 madminer.utils.inter DEBUG     First 10 values for observable a0_eta:
+[-0.36546168  0.57147145 -0.41027743 -1.43716776 -0.73764837  0.47694656
+  1.2905674  -1.11038589 -0.898938   -0.88458085  2.08397818 -1.28070939
+ -1.56477785 -0.34429947 -1.68332815 -1.51795697  1.76196921 -0.45023251
+  0.87886608  0.05551652]
+12:41 madminer.utils.inter DEBUG     First 10 values for observable a1_pt:
+[        nan 45.66762543 27.13420868 82.07572174  2.58588576 83.66072845
+         nan 64.69364929 51.94742203 37.22862625 45.26543045 46.00531006
+ 48.82694626 66.90648651 53.91775513 41.99726486         nan 74.28367615
+  1.13700521 69.69428253]
+12:41 madminer.utils.inter DEBUG     First 10 values for observable a1_eta:
+[        nan -0.72852409  1.71594143 -1.00158906 -1.20845878  0.61318624
+         nan -1.5098958  -0.64499432  0.579974    2.30459476  0.16719386
+  0.05615165 -0.11471552 -0.0117216  -2.42897701         nan  0.4822574
+  0.16235209  0.45610577]
+12:41 madminer.utils.inter DEBUG     First 10 values for observable num_bjets:
+[1. 1. 2. 1. 2. 1. 3. 2. 1. 1. 2. 2. 2. 2. 2. 1. 1. 1. 2. 0.]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b0_pt:
+[ 62.94785309 155.62509155  49.43392563  57.44487     96.34394836
+  49.10621262 131.98167419  96.69150543  34.00449753 145.33650208
+  78.73688507  76.78284454  76.53075409 193.86776733 133.56971741
+  57.99464035 122.89989471 112.14822388  57.60065079          nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b0_eta:
+[-1.33790445  1.42096579 -0.42127648  0.64386034 -0.48698175 -0.32926083
+ -1.05478919 -0.52445918  0.09641454  0.62830734 -1.16433024  0.38790661
+ -1.88139391  1.94141686  0.14953819 -2.41807294  0.55276686 -0.94618797
+  0.84556258         nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b1_pt:
+[        nan         nan 39.54982758         nan 44.68108368         nan
+ 83.02676392 64.86682129         nan         nan 32.07991409 41.24928665
+ 35.65169907 35.48469543 56.12105942         nan         nan         nan
+ 34.39848709         nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b1_eta:
+[        nan         nan  1.28230059         nan -1.52816856         nan
+ -2.70256138 -0.39012089         nan         nan -0.41068348  1.1679219
+ -2.75519395 -0.26168817 -0.47089037         nan         nan         nan
+  1.55879605         nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable bb_deltaR:
+[       nan        nan 1.70936395        nan 1.25823033        nan
+ 2.58196656 1.99322218        nan        nan 1.72206673 1.86990494
+ 2.81513513 2.65407306 2.18495621        nan        nan        nan
+ 1.84097002        nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable aa_deltaR:
+[       nan 1.4219279  2.14118454 1.12094331 0.65470279 1.33808872
+        nan 1.90424615 1.5094322  2.03242566 1.88855251 1.96355239
+ 2.0997871  1.37646895 1.75207067 1.43366383        nan 1.56648822
+ 3.05638965 1.56567233]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b0a0_deltaR:
+[       nan        nan 2.8999862         nan 2.44170496        nan
+ 3.86905054 2.96325173        nan        nan 4.23681132 2.97064898
+ 2.61439359 3.39629965 3.3807284         nan        nan        nan
+ 3.07605009        nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b0a1_deltaR:
+[       nan        nan 3.7904835         nan 2.10158418        nan
+        nan 1.43481162        nan        nan 3.5702409  2.50885859
+ 3.04824389 3.17094081 2.32150412        nan        nan        nan
+ 0.72285509        nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b1a0_deltaR:
+[       nan        nan 3.47986586        nan 3.23338048        nan
+ 4.17482257 1.56530642        nan        nan 3.20659036 3.24278767
+ 1.56240884 2.29262193 1.81259674        nan        nan        nan
+ 1.65613125        nan]
+12:42 madminer.utils.inter DEBUG     First 10 values for observable b1a1_deltaR:
+[       nan        nan 3.02125211        nan 2.69931261        nan
+        nan 3.23176632        nan        nan 3.61921057 1.28099624
+ 2.82982342 0.94543917 1.92775321        nan        nan        nan
+ 2.02110224        nan]
+12:43 madminer.utils.inter DEBUG     First 10 values for observable m_tot:
+[         nan          nan 297.03639883          nan 155.41004286
+          nan          nan 350.29441221          nan          nan
+ 684.07943913 360.14630009 346.17243017 749.38508744 404.04750173
+          nan          nan          nan 154.68772698          nan]
+12:43 madminer.utils.inter DEBUG     First 10 values for observable pt_bb:
+[         nan          nan  88.76687472          nan 133.51984361
+          nan 124.24117847  92.01132633          nan          nan
+  85.68412281  82.36758791  47.45242252 200.22799082 116.13043384
+          nan          nan          nan  63.25772495          nan]
+12:43 madminer.utils.inter DEBUG     First 10 values for observable pt_aa:
+[         nan 192.2340607  118.79414024 195.31089849  30.56470576
+ 164.984922            nan  96.89020138 153.82710396 111.96878625
+ 115.48052456 104.37947241 103.24348724 177.86917537 119.63154619
+ 191.31672999          nan 127.39299573  55.64848725 133.02513727]
+12:43 madminer.utils.inter DEBUG     First 10 values for observable m_bb:
+[         nan          nan  85.25564317          nan  85.04153619
+          nan 261.9678774  135.00926127          nan          nan
+  80.45567353  96.7645478  113.15283937 252.2376943  160.16477241
+          nan          nan          nan  75.38792961          nan]
+12:43 madminer.utils.inter DEBUG     First 10 values for observable m_aa:
+[         nan 125.5111051  128.25458876 115.88913141   5.59662981
+ 126.41092251          nan 128.32473251 117.75956647 125.42473272
+ 120.30076189 123.82866007 136.98245338 128.38409474 119.30759907
+ 118.9036787           nan 119.72894262  17.05565483 124.96106046]
+12:45 madminer.utils.inter DEBUG     7867 / 7896 events pass required observable a0_pt
+12:45 madminer.utils.inter DEBUG     7867 / 7896 events pass required observable a0_eta
+12:45 madminer.utils.inter DEBUG     7186 / 7896 events pass required observable a1_pt
+12:45 madminer.utils.inter DEBUG     7186 / 7896 events pass required observable a1_eta
+12:45 madminer.utils.inter DEBUG     7896 / 7896 events pass required observable num_bjets
+12:45 madminer.utils.inter DEBUG     6744 / 7896 events pass required observable b0_pt
+12:45 madminer.utils.inter DEBUG     6744 / 7896 events pass required observable b0_eta
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass required observable b1_pt
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass required observable b1_eta
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass required observable bb_deltaR
+12:45 madminer.utils.inter DEBUG     7186 / 7896 events pass required observable aa_deltaR
+12:45 madminer.utils.inter DEBUG     2810 / 7896 events pass required observable b0a0_deltaR
+12:45 madminer.utils.inter DEBUG     2558 / 7896 events pass required observable b0a1_deltaR
+12:45 madminer.utils.inter DEBUG     2810 / 7896 events pass required observable b1a0_deltaR
+12:45 madminer.utils.inter DEBUG     2558 / 7896 events pass required observable b1a1_deltaR
+12:45 madminer.utils.inter DEBUG     2558 / 7896 events pass required observable m_tot
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass required observable pt_bb
+12:45 madminer.utils.inter DEBUG     7186 / 7896 events pass required observable pt_aa
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass required observable m_bb
+12:45 madminer.utils.inter DEBUG     7186 / 7896 events pass required observable m_aa
+12:45 madminer.utils.inter DEBUG     7817 / 7896 events pass cut Cut(name='CUT', val_expression='a0_pt>30', is_required=False)
+12:45 madminer.utils.inter DEBUG     6228 / 7896 events pass cut Cut(name='CUT', val_expression='a1_pt>30', is_required=False)
+12:45 madminer.utils.inter DEBUG     6543 / 7896 events pass cut Cut(name='CUT', val_expression='b0_pt>30', is_required=False)
+12:45 madminer.utils.inter DEBUG     2380 / 7896 events pass cut Cut(name='CUT', val_expression='b1_pt>30', is_required=False)
+12:45 madminer.utils.inter DEBUG     7574 / 7896 events pass cut Cut(name='CUT', val_expression='abs(a0_eta)<2.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     6777 / 7896 events pass cut Cut(name='CUT', val_expression='abs(a1_eta)<2.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     6381 / 7896 events pass cut Cut(name='CUT', val_expression='abs(b0_eta)<2.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     2629 / 7896 events pass cut Cut(name='CUT', val_expression='abs(b1_eta)<2.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     2822 / 7896 events pass cut Cut(name='CUT', val_expression='bb_deltaR>0.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     7181 / 7896 events pass cut Cut(name='CUT', val_expression='aa_deltaR>0.4', is_required=False)
+12:45 madminer.utils.inter DEBUG     2806 / 7896 events pass cut Cut(name='CUT', val_expression='b0a0_deltaR>1', is_required=False)
+12:45 madminer.utils.inter DEBUG     2506 / 7896 events pass cut Cut(name='CUT', val_expression='b0a1_deltaR>1', is_required=False)
+12:45 madminer.utils.inter DEBUG     2787 / 7896 events pass cut Cut(name='CUT', val_expression='b1a0_deltaR>1', is_required=False)
+12:45 madminer.utils.inter DEBUG     2488 / 7896 events pass cut Cut(name='CUT', val_expression='b1a1_deltaR>1', is_required=False)
+12:45 madminer.utils.inter DEBUG     1048 / 7896 events pass cut Cut(name='CUT', val_expression='abs(m_bb-125)<25', is_required=False)
+12:45 madminer.utils.inter DEBUG     3242 / 7896 events pass cut Cut(name='CUT', val_expression='abs(m_aa-125)<3', is_required=False)
+12:45 madminer.utils.inter DEBUG     2690 / 7896 events pass cut Cut(name='CUT', val_expression='num_bjets==2', is_required=False)
+12:45 madminer.utils.inter DEBUG     5837 / 7896 events pass cut Cut(name='CUT', val_expression='aa_deltaR<2', is_required=False)
+12:45 madminer.utils.inter INFO      238 / 7896 events pass everything
+12:45 madminer.delphes.del DEBUG   Did not extract weights from Delphes file
+12:45 madminer.delphes.del DEBUG   Found 238 events
+12:45 madminer.delphes.del DEBUG   Extracting weights from LHE file
+12:45 madminer.utils.inter DEBUG   Parsing LHE file /vols/cms/us322/02b_final_events_14_new/background/batch_64//run_01/unweighted_events.lhe.gz
+12:45 madminer.utils.inter DEBUG   Parsing header and events as XML with ElementTree
+12:45 madminer.utils.inter DEBUG   Found entry event_norm = average in LHE header. Interpreting this as weight_norm_is_average = True.
+12:45 madminer.utils.inter DEBUG   Event 1 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 2 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 3 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 4 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 5 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 6 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 7 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 8 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 9 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 10 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 11 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 12 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 13 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 14 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 15 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 16 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 17 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 18 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 19 passes observations, passes cuts, passes efficiencies -> passes
+12:45 madminer.utils.inter DEBUG   Event 20 passes observations, passes cuts, passes efficiencies -> passes
+12:50 madminer.delphes.del DEBUG   Found weights ['sm', 'morphing_basis_vector_1', 'morphing_basis_vector_2', 'morphing_basis_vector_3', 'morphing_basis_vector_4', 'morphing_basis_vector_5', 'morphing_basis_vector_6', 'morphing_basis_vector_7', 'morphing_basis_vector_8', 'morphing_basis_vector_9'] in LHE file
+12:50 madminer.delphes.del DEBUG   Applying Delphes-based cuts to LHE weights
+Traceback (most recent call last):
+  File "03a_read_delphes.py", line 276, in <module>
+    delphes.analyse_delphes_samples()
+  File "/vols/cms/us322/nsbi_for_dihiggs/madminer/madminer/delphes/delphes_reader.py", line 632, in analyse_delphes_samples
+    this_observations, this_weights, this_n_events = self._analyse_delphes_sample(
+  File "/vols/cms/us322/nsbi_for_dihiggs/madminer/madminer/delphes/delphes_reader.py", line 820, in _analyse_delphes_sample
+    this_weights[key] = weights[cut_filter]
+IndexError: boolean index did not match indexed array along dimension 0; dimension is 25000 but corresponding boolean dimension is 7896

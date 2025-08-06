@@ -1,0 +1,4 @@
+Generated job ID: 8 (CLUSTER=3094822, PROCESS=7)
+Using Condor temporary directory: /tmp
+Running background generation (-b) with random seed
+Modified run card with seed: 23791

@@ -1,0 +1,4 @@
+usage: 03a_read_delphes.py [-h] [-p PROCESS_CODE] [-b BATCH_INDEX]
+                           [-supp_id SUPP_ID] [-dr] [-start START]
+                           [-stop STOP]
+03a_read_delphes.py: error: argument -p/--process_code: expected one argument

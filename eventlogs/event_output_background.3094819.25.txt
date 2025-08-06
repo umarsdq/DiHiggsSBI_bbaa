@@ -1,0 +1,8 @@
+Generated job ID: 26 (CLUSTER=3094819, PROCESS=25)
+Using Condor temporary directory: /tmp
+Running background generation (-b) with random seed
+Modified run card with seed: 6056
+
+Running at energy 14 TeV
+Number of runs: 1
+Job completed successfully
