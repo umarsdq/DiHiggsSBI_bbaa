@@ -1,0 +1,53 @@
+000 (3105413.000.000) 2025-08-06 19:42:51 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_935_e924>
+...
+001 (3105413.000.000) 2025-08-06 19:42:51 Job executing on host: <146.179.108.87:9618?addrs=146.179.108.87-9618+[2a0c-5bc0-88-111-216-3eff-fe7f-1b4]-9618&alias=lxbgpu01.hep.ph.ic.ac.uk&noUDP&sock=startd_8428_7c47>
+	SlotName: slot1_1@lxbgpu01.hep.ph.ic.ac.uk
+	AvailableGPUs = { GPUs_GPU_0ed04028 }
+	CondorScratchDir = "/srv/localstage/condor/dir_81504"
+	Cpus = 16
+	Disk = 735125138
+	GPUs = 1
+	GPUs_GPU_0ed04028 = [ Id = "GPU-0ed04028"; ClockMhz = 1328.5; Capability = 6.0; CoresPerCU = 64; DeviceName = "Tesla P100-PCIE-12GB"; DeviceUuid = "0ed04028-b765-6c48-09e6-fc4e7aaf213a"; ECCEnabled = true; ComputeUnits = 56; DriverVersion = 13.0; DevicePciBusId = "0000:00:03.0"; GlobalMemoryMb = 12187; MaxSupportedVersion = 13000 ]
+	Memory = 85790
+...
+006 (3105413.000.000) 2025-08-06 19:43:05 Image size of job updated: 33780
+	33  -  MemoryUsage of job (MB)
+	33780  -  ResidentSetSize of job (KB)
+...
+006 (3105413.000.000) 2025-08-06 19:45:06 Image size of job updated: 2313416
+	2260  -  MemoryUsage of job (MB)
+	2313416  -  ResidentSetSize of job (KB)
+...
+006 (3105413.000.000) 2025-08-06 19:47:07 Image size of job updated: 2317164
+	2260  -  MemoryUsage of job (MB)
+	2313416  -  ResidentSetSize of job (KB)
+...
+006 (3105413.000.000) 2025-08-06 19:49:07 Image size of job updated: 2318164
+	2264  -  MemoryUsage of job (MB)
+	2318164  -  ResidentSetSize of job (KB)
+...
+006 (3105413.000.000) 2025-08-06 19:51:07 Image size of job updated: 2319788
+	2266  -  MemoryUsage of job (MB)
+	2319788  -  ResidentSetSize of job (KB)
+...
+006 (3105413.000.000) 2025-08-06 19:55:13 Image size of job updated: 2319792
+	2266  -  MemoryUsage of job (MB)
+	2319788  -  ResidentSetSize of job (KB)
+...
+004 (3105413.000.000) 2025-08-06 19:55:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:11:37, Sys 0 00:00:13  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage      Request Allocated Assigned
+	   Cpus                 :     0.99        16           16 
+	   Disk (KB)            :     1    661612624.20 735125138 
+	   GPUs                 :     0.01         1            1 "GPU-0ed04028"
+	   Memory (MB)          :  2266        85790        85790 
+	   TimeExecute (s)      :   742                           
+	   TimeSlotBusy (s)     :   742                           
+...
+009 (3105413.000.000) 2025-08-06 19:55:13 Job was aborted.
+	via condor_rm (by user us322)
+...

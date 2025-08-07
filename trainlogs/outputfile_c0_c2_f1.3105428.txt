@@ -1,0 +1,20 @@
+Using device: cuda
+Loading in samples from with c0.
+Running analysis on delphes_s.
+Analysis will use features [15]
+
+Preprocessing data...
+
+Using dense type networks.
+Training classifier 2...
+X_train: (16000000, 4).
+X_val: (4000000, 4).
+Y_train: (16000000, 1).
+Y_val: (4000000, 1).
+Starting network training...
+Using loss type BCE.
+Stopping network training
+Done training!
+Best epoch: 78
+Done with classifier 2!
+

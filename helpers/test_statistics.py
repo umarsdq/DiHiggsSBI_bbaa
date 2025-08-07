@@ -32,7 +32,7 @@ def get_N_sig_obs_at_c_point(data_input_dir, input_precode, c_point, N_sig_SM_ta
     """
     
     # load in the sampler
-    sampler = SampleAugmenter(f'{data_input_dir}/{input_precode}_shuffled_100TeV.h5')
+    sampler = SampleAugmenter(f'{data_input_dir}/{input_precode}_shuffled_14TeV.h5')
     
     # get the scale factor to the SM
     _, xsecs_morphing, _ = sampler.cross_sections(theta=sampling.morphing_point((0,0,0)))
@@ -65,7 +65,7 @@ def get_test_statistic_rate_at_c_points(data_input_dir, input_precode, c_grid, N
     """
     
     # load in the sampler
-    sampler = SampleAugmenter(f'{data_input_dir}/{input_precode}_shuffled_100TeV.h5')
+    sampler = SampleAugmenter(f'{data_input_dir}/{input_precode}_shuffled_14TeV.h5')
     
     # get the scale factor to the SM
     _, xsecs_morphing, _ = sampler.cross_sections(theta=sampling.morphing_point((0,0,0)))

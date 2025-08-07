@@ -7,19 +7,19 @@ madgraph:
     dir: /vols/cms/us322/mg5amcnlo # Stable v3.5.1
     test_run: True
     #output_dir: /vols/cms/us322/testing/mg_processes
-    output_dir: /vols/cms/us322/02_event_generation_14_new/mg_processes
+    output_dir: /vols/cms/us322/events_bbaa/02_event_generation_bbaa_new/mg_processes
     energy: 14 # 100 TeV (FC) or 14 TeV (HL-LHC)
 
 # Delphes (step 3)
 delphes:
-    input_dir_prefix: /vols/cms/us322/02b_final_events_14_new
-    output_file: /vols/cms/us322/03_post_delphes_data_14/delphes
-    long_term_storage_dir: /vols/cms/us322/03_post_delphes_data_14
+    input_dir_prefix: /vols/cms/us322/events_bbaa/02b_final_events_bbaa_new
+    output_file: /vols/cms/us322/events_bbaa/03_post_delphes_data_bbaa/delphes
+    long_term_storage_dir: /vols/cms/us322/events_bbaa/03_post_delphes_data_bbaa
     
 # Sampling (step 4)
 sampling:
-    input_dir: /vols/cms/us322/03_post_delphes_data_14
-    output_dir: /vols/cms/us322/04_new_dataset_dihiggs_14_25k
+    input_dir: /vols/cms/us322/events_bbaa/03_post_delphes_data_bbaa
+    output_dir: /vols/cms/us322/events_bbaa/04_new_dataset_dihiggs_bbaa_25k
     
 # Plotting
 plotting:

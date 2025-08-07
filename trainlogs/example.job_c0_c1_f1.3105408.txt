@@ -1,0 +1,40 @@
+000 (3105408.000.000) 2025-08-06 19:26:44 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_935_e924>
+...
+001 (3105408.000.000) 2025-08-06 19:26:45 Job executing on host: <146.179.108.87:9618?addrs=146.179.108.87-9618+[2a0c-5bc0-88-111-216-3eff-fe7f-1b4]-9618&alias=lxbgpu01.hep.ph.ic.ac.uk&noUDP&sock=startd_8428_7c47>
+	SlotName: slot1_1@lxbgpu01.hep.ph.ic.ac.uk
+	AvailableGPUs = { GPUs_GPU_0ed04028 }
+	CondorScratchDir = "/srv/localstage/condor/dir_81155"
+	Cpus = 16
+	Disk = 735125138
+	GPUs = 1
+	GPUs_GPU_0ed04028 = [ Id = "GPU-0ed04028"; ClockMhz = 1328.5; Capability = 6.0; CoresPerCU = 64; DeviceName = "Tesla P100-PCIE-12GB"; DeviceUuid = "0ed04028-b765-6c48-09e6-fc4e7aaf213a"; ECCEnabled = true; ComputeUnits = 56; DriverVersion = 13.0; DevicePciBusId = "0000:00:03.0"; GlobalMemoryMb = 12187; MaxSupportedVersion = 13000 ]
+	Memory = 85790
+...
+006 (3105408.000.000) 2025-08-06 19:26:58 Image size of job updated: 19740
+	20  -  MemoryUsage of job (MB)
+	19740  -  ResidentSetSize of job (KB)
+...
+006 (3105408.000.000) 2025-08-06 19:27:19 Image size of job updated: 260460
+	20  -  MemoryUsage of job (MB)
+	19744  -  ResidentSetSize of job (KB)
+...
+005 (3105408.000.000) 2025-08-06 19:27:19 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:06, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:06, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage      Request Allocated Assigned
+	   Cpus                 :     0.08        16           16 
+	   Disk (KB)            :     1    661612624.20 735125138 
+	   GPUs                 :                  1            1 "GPU-0ed04028"
+	   Memory (MB)          :    20        85790        85790 
+	   TimeExecute (s)      :    34                           
+	   TimeSlotBusy (s)     :    35                           
+
+	Job terminated of its own accord at 2025-08-06T18:27:19Z with exit-code 1.
+...

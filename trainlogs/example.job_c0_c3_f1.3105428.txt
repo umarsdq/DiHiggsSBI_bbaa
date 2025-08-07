@@ -1,0 +1,107 @@
+000 (3105428.008.000) 2025-08-06 20:14:54 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_935_e924>
+...
+001 (3105428.008.000) 2025-08-07 03:42:03 Job executing on host: <146.179.108.46:9618?addrs=146.179.108.46-9618+[2a0c-5bc0-88-111-632-1ff-fee1-230e]-9618&alias=lxdgpu00.hep.ph.ic.ac.uk&noUDP&sock=startd_2246_25cd>
+	SlotName: slot1_1@lxdgpu00.hep.ph.ic.ac.uk
+	AvailableGPUs = { GPUs_GPU_31edab1d }
+	CondorScratchDir = "/srv/localstage/condor/dir_719498"
+	Cpus = 32
+	Disk = 1507458923
+	GPUs = 1
+	GPUs_GPU_31edab1d = [ Id = "GPU-31edab1d"; ClockMhz = 1800.0; Capability = 8.6; CoresPerCU = 128; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "31edab1d-d62b-597c-ceec-dee727c0fb82"; ECCEnabled = true; ComputeUnits = 84; DriverVersion = 12.9; DevicePciBusId = "0000:83:00.0"; GlobalMemoryMb = 45486; MaxSupportedVersion = 12090 ]
+	Memory = 128075
+...
+006 (3105428.008.000) 2025-08-07 03:42:17 Image size of job updated: 4248
+	5  -  MemoryUsage of job (MB)
+	4248  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:44:17 Image size of job updated: 1810780
+	1769  -  MemoryUsage of job (MB)
+	1810780  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:46:17 Image size of job updated: 1827360
+	1785  -  MemoryUsage of job (MB)
+	1827360  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:48:17 Image size of job updated: 1828592
+	1785  -  MemoryUsage of job (MB)
+	1827360  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:50:17 Image size of job updated: 1828628
+	1785  -  MemoryUsage of job (MB)
+	1827360  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:52:18 Image size of job updated: 1828628
+	1786  -  MemoryUsage of job (MB)
+	1828336  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:54:19 Image size of job updated: 1828668
+	1786  -  MemoryUsage of job (MB)
+	1828336  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 03:58:21 Image size of job updated: 1828736
+	1786  -  MemoryUsage of job (MB)
+	1828336  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 04:24:26 Image size of job updated: 1914952
+	1786  -  MemoryUsage of job (MB)
+	1828336  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 04:32:29 Image size of job updated: 1914952
+	1789  -  MemoryUsage of job (MB)
+	1831116  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:04:37 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874516  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:12:38 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874588  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:20:42 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874672  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:36:45 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874716  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:44:46 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874720  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 05:52:49 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874772  -  ResidentSetSize of job (KB)
+...
+006 (3105428.008.000) 2025-08-07 06:08:53 Image size of job updated: 1914952
+	1831  -  MemoryUsage of job (MB)
+	1874900  -  ResidentSetSize of job (KB)
+...
+022 (3105428.008.000) 2025-08-07 07:07:06 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_1@lxdgpu00.hep.ph.ic.ac.uk <146.179.108.46:9618?addrs=146.179.108.46-9618+[2a0c-5bc0-88-111-632-1ff-fee1-230e]-9618&alias=lxdgpu00.hep.ph.ic.ac.uk&noUDP&sock=startd_2246_25cd>
+...
+023 (3105428.008.000) 2025-08-07 07:07:12 Job reconnected to slot1_1@lxdgpu00.hep.ph.ic.ac.uk
+    startd address: <146.179.108.46:9618?addrs=146.179.108.46-9618+[2a0c-5bc0-88-111-632-1ff-fee1-230e]-9618&alias=lxdgpu00.hep.ph.ic.ac.uk&noUDP&sock=startd_2246_25cd>
+    starter address: <146.179.108.46:9618?addrs=146.179.108.46-9618+[2a0c-5bc0-88-111-632-1ff-fee1-230e]-9618&alias=lxdgpu00.hep.ph.ic.ac.uk&noUDP&sock=slot1_1_2753_7cc9_11480>
+...
+005 (3105428.008.000) 2025-08-07 10:25:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 06:37:19, Sys 0 00:03:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 09:53:14, Sys 0 00:04:52  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :         Usage  Request  Allocated 
+	   Cpus                 :          0.99                  32 
+	   Disk (KB)            :          1             1507458923 
+	   Memory (MB)          :       1954                 128075 
+	   TimeExecute (s)      : 1754558721                        
+	   TimeSlotBusy (s)     : 1754558721                        
+
+	Job terminated of its own accord at 2025-08-07T09:25:21Z with exit-code 0.
+...

@@ -1,0 +1,100 @@
+000 (3105428.002.000) 2025-08-06 20:14:54 Job submitted from host: <146.179.108.134:9618?addrs=146.179.108.134-9618&alias=htcmaster00.hep.ph.ic.ac.uk&noUDP&sock=schedd_935_e924>
+...
+001 (3105428.002.000) 2025-08-06 20:14:55 Job executing on host: <146.179.108.47:9618?addrs=146.179.108.47-9618+[2a0c-5bc0-88-111-632-1ff-fee0-a7a8]-9618&alias=lxdgpu01.hep.ph.ic.ac.uk&noUDP&sock=startd_2282_d735>
+	SlotName: slot1_1@lxdgpu01.hep.ph.ic.ac.uk
+	AvailableGPUs = { GPUs_GPU_f49fbfc7 }
+	CondorScratchDir = "/srv/localstage/condor/dir_1182173"
+	Cpus = 32
+	Disk = 1507458923
+	GPUs = 1
+	GPUs_GPU_f49fbfc7 = [ Id = "GPU-f49fbfc7"; ClockMhz = 1800.0; Capability = 8.6; CoresPerCU = 128; DeviceName = "NVIDIA RTX A6000"; DeviceUuid = "f49fbfc7-d356-8a7c-f7e6-7743f70cfe2b"; ECCEnabled = true; ComputeUnits = 84; DriverVersion = 12.9; DevicePciBusId = "0000:83:00.0"; GlobalMemoryMb = 45486; MaxSupportedVersion = 12090 ]
+	Memory = 128075
+...
+006 (3105428.002.000) 2025-08-06 20:15:03 Image size of job updated: 30720
+	30  -  MemoryUsage of job (MB)
+	30720  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:17:03 Image size of job updated: 2357120
+	2302  -  MemoryUsage of job (MB)
+	2357120  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:19:03 Image size of job updated: 2374756
+	2320  -  MemoryUsage of job (MB)
+	2374756  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:21:03 Image size of job updated: 2376160
+	2320  -  MemoryUsage of job (MB)
+	2374756  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:23:04 Image size of job updated: 2376324
+	2320  -  MemoryUsage of job (MB)
+	2374756  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:25:05 Image size of job updated: 2444204
+	2321  -  MemoryUsage of job (MB)
+	2375760  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 20:51:11 Image size of job updated: 2449968
+	2321  -  MemoryUsage of job (MB)
+	2375760  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 21:27:20 Image size of job updated: 2449968
+	2321  -  MemoryUsage of job (MB)
+	2376456  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 21:59:28 Image size of job updated: 2449968
+	2326  -  MemoryUsage of job (MB)
+	2380812  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:23:35 Image size of job updated: 2449968
+	2326  -  MemoryUsage of job (MB)
+	2380892  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:35:39 Image size of job updated: 2449968
+	2335  -  MemoryUsage of job (MB)
+	2390308  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:39:39 Image size of job updated: 2449968
+	2366  -  MemoryUsage of job (MB)
+	2422228  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:47:41 Image size of job updated: 2449968
+	2366  -  MemoryUsage of job (MB)
+	2422324  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:55:43 Image size of job updated: 2449968
+	2366  -  MemoryUsage of job (MB)
+	2422416  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 22:57:43 Image size of job updated: 2449968
+	2366  -  MemoryUsage of job (MB)
+	2422424  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-06 23:03:45 Image size of job updated: 2449968
+	2366  -  MemoryUsage of job (MB)
+	2422524  -  ResidentSetSize of job (KB)
+...
+006 (3105428.002.000) 2025-08-07 00:22:04 Image size of job updated: 2520348
+	2366  -  MemoryUsage of job (MB)
+	2422524  -  ResidentSetSize of job (KB)
+...
+005 (3105428.002.000) 2025-08-07 00:40:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 04:21:21, Sys 0 00:02:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 04:21:21, Sys 0 00:02:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage       Request  Allocated Assigned
+	   Cpus                 :     0.99         32            32 
+	   Disk (KB)            :     1    1356713030.70 1507458923 
+	   GPUs                 :     0.01          1             1 "GPU-f49fbfc7"
+	   Memory (MB)          :  2366        128075        128075 
+	   TimeExecute (s)      : 15929                             
+	   TimeSlotBusy (s)     : 15930                             
+
+	Job terminated of its own accord at 2025-08-06T23:40:24Z with exit-code 0.
+...

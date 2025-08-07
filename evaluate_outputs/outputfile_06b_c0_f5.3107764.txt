@@ -1,0 +1,13 @@
+Running 06b evaluation with parameter_code=c0 and number_features=5
+Started at: Thu Aug  7 15:22:36 BST 2025
+Running 06b with parameter_code=c0, number_features=5
+Total RAM: 125.17 GB
+Available RAM: 114.52 GB
+Total Disk Space: 19.52 GB
+Used Disk Space: 8.17 GB
+Free Disk Space: 10.33 GB
+Using device: cpu
+Loading data with 5 features
+['sm', 'alt_c0_m10', 'alt_c0_m6', 'alt_c0_m4', 'alt_c0_p1']
+['sm', 'alt_c0_m10', 'alt_c0_m6', 'alt_c0_m4', 'alt_c0_p1']
+Finished at: Thu Aug  7 15:23:02 BST 2025

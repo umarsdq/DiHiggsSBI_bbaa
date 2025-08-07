@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "06b_evaluate_coverage.py", line 306, in <module>
+    main() 
+  File "06b_evaluate_coverage.py", line 239, in main
+    loc_N_sig_obs = get_N_sig_obs_at_c_point(workflow["sampling"]["input_dir"], identity_code, loc_c_point, N_sig_SM_target)
+  File "/vols/cms/us322/dihiggs_bbaa/helpers/test_statistics.py", line 35, in get_N_sig_obs_at_c_point
+    sampler = SampleAugmenter(f'{data_input_dir}/{input_precode}_shuffled_100TeV.h5')
+  File "/home/hep/us322/SBI/nsbi_for_dihiggs/madminer/madminer/sampling/sampleaugmenter.py", line 74, in __init__
+    super().__init__(filename, disable_morphing, include_nuisance_parameters)
+  File "/home/hep/us322/SBI/nsbi_for_dihiggs/madminer/madminer/analysis/dataanalyzer.py", line 53, in __init__
+    ) = load_madminer_settings(filename, include_nuisance_benchmarks=include_nuisance_parameters)
+  File "/home/hep/us322/SBI/nsbi_for_dihiggs/madminer/madminer/utils/interfaces/hdf5.py", line 63, in load_madminer_settings
+    analysis_params = _load_analysis_params(file_name)
+  File "/home/hep/us322/SBI/nsbi_for_dihiggs/madminer/madminer/utils/interfaces/hdf5.py", line 870, in _load_analysis_params
+    with h5py.File(file_name, "r") as file:
+  File "/home/hep/us322/miniforge3/envs/nsbi_dihiggs/lib/python3.8/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/hep/us322/miniforge3/envs/nsbi_dihiggs/lib/python3.8/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '/vols/cms/us322/events_bbaa/03_post_delphes_data_bbaa/delphes_s_shuffled_100TeV.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

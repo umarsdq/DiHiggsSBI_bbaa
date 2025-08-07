@@ -1,0 +1,3 @@
+/home/hep/us322/miniforge3/envs/nsbi_dihiggs/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+  0%|          | 0/1600 [00:00<?, ?it/s]  0%|          | 1/1600 [04:10<111:20:45, 250.69s/it]  0%|          | 2/1600 [08:23<111:43:28, 251.69s/it]

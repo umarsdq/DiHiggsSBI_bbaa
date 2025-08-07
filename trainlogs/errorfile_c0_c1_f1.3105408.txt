@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "05_train_network.py", line 99, in <module>
+    samples_SM = np.load(f'{samples_dir}/plain_real/{identity_code}/{parameter_code}/x_sm.npy')[:,features]
+  File "/home/hep/us322/miniforge3/envs/nsbi_dihiggs/lib/python3.8/site-packages/numpy/lib/npyio.py", line 405, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/vols/cms/us322/events_bbaa/04_new_dataset_dihiggs_bbaa_25k/plain_real/delphes_s/c0/x_sm.npy'

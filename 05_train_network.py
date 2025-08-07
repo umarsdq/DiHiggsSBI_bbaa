@@ -64,19 +64,18 @@ os.makedirs("models", exist_ok=True)
 run_configs["features"] = [15, 16, 17, 10, 9, 0, 2, 5, 7][:int(args.num_features)]
 
 
-# run_configs["bkg.N_train"] = 10000000 # ORIGINAL used in paper
-run_configs["bkg.N_train"] = 10000 # Reduced for smaller dataset
+run_configs["bkg.N_train"] = 10000000 # 10^7 events as specified in the paper
 
 # network architecture
 run_configs["network.type"] = args.network
-run_configs["network.layers"] = [32, 32]
+run_configs["network.layers"] = [32, 32]  # 2 layers with 32 hidden nodes as specified in the paper
 
 # training hyperparameters
-run_configs["hyperparam.batch_size"] = 128 ### change based on bkg size
-run_configs["hyperparam.lr"] = 0.001
-run_configs["hyperparam.n_epochs"] = 150
-run_configs["hyperparam.patience_ES"] = 20
-run_configs["hyperparam.patience_lr"] = 5
+run_configs["hyperparam.batch_size"] = 1024  # as specified in the paper
+run_configs["hyperparam.lr"] = 0.001  # 10^-3 as specified in the paper
+run_configs["hyperparam.n_epochs"] = 150  # up to 1600 epochs as specified in the paper
+run_configs["hyperparam.patience_ES"] = 20  # early stopping patience as specified in the paper
+run_configs["hyperparam.patience_lr"] = 5  # learning rate reduction patience as specified in the paper
 
 with open(f"run_configs/{run_id}.yml", "w") as outfile:
     yaml.dump(run_configs, outfile, default_flow_style=False)
